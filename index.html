@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/hover.css" />
+    <link rel="stylesheet" href="css/all.css" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>task-3_bootstrap</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-dark navbar-expand-lg sticky-top text-light">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="images/logo.png" alt="" /><span class="ps-3"
+            >html landing page</span
+          >
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">tatures</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">screenshots</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">about</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Dropdown
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">pricing</a></li>
+                <li><a class="dropdown-item" href="#">news</a></li>
+                <li><a class="dropdown-item" href="#">stats</a></li>
+                <li><a class="dropdown-item" href="#">contact</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <main class="container-fluid overflow-hidden">
+      <section class="container">
+        <article
+          class="row row-cols-lg-4 row-cols-md-2 row-cols-sm-1 mx-auto py-5 text-center text-secondary fw-bold"
+        >
+          <div class="box py-3">
+            <i class="fa-solid fa-tv fs-1 pb-3"></i>
+            <h4 class="pb-3 text-uppercase">responsive design</h4>
+            <p class="pb-3">
+              donec elementum accumsan augue vitae mattis dui porttitor sit amet
+              nullam ipsum lectus men porta ac nunc.
+            </p>
+            <a href="#" class="btn btn-secondary rounded-0">click here</a>
+          </div>
+          <div class="box py-3">
+            <i class="fa-solid fa-gear fs-1 pb-3"></i>
+            <h4 class="pb-3 text-uppercase">simple settings</h4>
+            <p class="pb-3">
+              donec elementum accumsan augue vitae mattis dui porttitor sit amet
+              nullam ipsum lectus men porta ac nunc.
+            </p>
+            <a href="#" class="btn btn-secondary rounded-0">click here</a>
+          </div>
+          <div class="box py-3">
+            <i class="fa-solid fa-sliders fa-rotate-90 fs-1 pb-3"></i>
+            <h4 class="pb-3 text-uppercase">easy navigation</h4>
+            <p class="pb-3">
+              donec elementum accumsan augue vitae mattis dui porttitor sit amet
+              nullam ipsum lectus men porta ac nunc.
+            </p>
+            <a href="#" class="btn btn-secondary rounded-0">click here</a>
+          </div>
+          <div class="box py-3">
+            <i class="fa-solid fa-pencil fs-1 pb-3"></i>
+            <h4 class="pb-3 text-uppercase">more features</h4>
+            <p class="pb-3">
+              donec elementum accumsan augue vitae mattis dui porttitor sit amet
+              nullam ipsum lectus men porta ac nunc.
+            </p>
+            <a href="#" class="btn btn-secondary rounded-0">click here</a>
+          </div>
+        </article>
+      </section>
+      <!--  -->
+      <section class="row p-5">
+        <div class="text-center text-light">
+          <h1>check the product screenshots</h1>
+          <p>
+            lorem ipsum dolor sit amet consectetur adipiscing elit teger
+            vulputate nisl eu odio porttitor ac pulvinar nunc congue. curabitur
+            pretium luctus lacus nec nisi eu odio ac pulvinar nunc congue.!
+          </p>
+        </div>
+        <div
+          id="carouselExampleInterval"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="3000">
+              <img src="images/1.jpg" class="d-block w-25 mx-auto" alt="..." />
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+              <img src="images/2.jpg" class="d-block w-25 mx-auto" alt="..." />
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+              <img src="images/3.jpg" class="d-block w-25 mx-auto" alt="..." />
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+              <img src="images/4.jpg" class="d-block w-25 mx-auto" alt="..." />
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+              <img src="images/5.jpg" class="d-block w-25 mx-auto" alt="..." />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleInterval"
+            data-bs-slide="prev"
+          >
+            <span aria-hidden="true"
+              ><i class="fa-solid fa-angle-left fs-1" style="color: #000000"></i
+            ></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleInterval"
+            data-bs-slide="next"
+          >
+            <span aria-hidden="true"
+              ><i
+                class="fa-solid fa-angle-right fs-1"
+                style="color: #000000"
+              ></i
+            ></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+      <!--  -->
+      <section class="my-5 container text-lg-start text-md-center">
+        <div class="container-1 row my-5">
+          <div class="col-lg-6 col-sm-12 mx-auto p-3">
+            <h3 class="text-uppercase">quisque et aliquam nulla</h3>
+            <p class="text-secondary fs-5">
+              lorem ipsum dolor sit amet, consectetur adipiscing elit, integer
+              vulputate nis eu odio porttitor, ac pulvinar nunc congue.
+              curabitur pretium luctus lacus nec pellentesque. curabitur nec
+              massa feugiat mauris laoreet posuere.
+            </p>
+            <a href="#" class="btn btn-primary rounded-0">learn more</a>
+          </div>
+          <div class="col-lg-6 col-sm-12 mx-auto">
+            <img src="images/1.png" />
+          </div>
+        </div>
+        <div class="container-2 row my-5">
+          <div class="col-lg-6 col-sm-12 mx-auto">
+            <img src="images/2.png" />
+          </div>
+          <div class="col-lg-6 col-sm-12 mx-auto p-3">
+            <h3 class="text-uppercase">donec mollis rutrum laoreet</h3>
+            <p class="text-secondary fs-5">
+              lorem ipsum dolor sit amet, consectetur adipiscing elit. integer
+              vulputate nist eu odio porttitor, ac pulvinar nunc congue.
+              curabitur pretium luctus lacus nec pellentesque. curabitur nec
+              massa feugiat mauris laoreet posuere.
+            </p>
+            <a href="#" class="btn btn-primary rounded-0">learn more</a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="js/bootstrap.bundle.js"></script>
+  </body>
+</html>

@@ -1,0 +1,16 @@
+:root {
+  --color-1: #303b4f;
+  --color-2: #28b69d;
+  --color-3: #2fb3e1;
+}
+.navbar {
+  background-color: var(--color-1);
+}
+.navbar li a:hover{
+  color: var(--color-2);
+}
+/*  */
+section:nth-of-type(2){
+  background-color: var(--color-3);
+}
+
